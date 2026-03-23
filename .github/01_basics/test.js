@@ -1,0 +1,8 @@
+console.log("hi")
+console.log("hello world")
+console.log("welcome to github actions")
+console.log("this is a test file for github actions")
+console.log("this file is used to test the github actions workflow")
+console.log("if you see this message, it means that the workflow is working correctly")
+console.log("thank you for testing github actions")
+console.log("have a great day!")
