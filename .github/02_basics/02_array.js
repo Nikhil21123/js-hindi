@@ -30,3 +30,9 @@ const bike = ["hero", "ktm"]
 // let num2="Nkkhil"
 // let num3=333
 // console.log(Array.of(num1,num2,num3))
+
+// Practice:
+// const arr = [1,2,3,4,4,8]
+// console.log(arr);
+// arr[4]=5
+// console.log(arr)
