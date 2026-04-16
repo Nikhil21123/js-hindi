@@ -68,3 +68,26 @@ console.log(jsuser);
 // to find a propert in available in object or Not.
 
 console.log(jsuser.hasOwnProperty("isLoggedIn"));
+
+// *********************************************************
+
+// distructuring of object
+// const course = {
+//     name: "js in hindi",
+//     price: 999,
+//     teache: "hitesh"
+// }
+// const {teache: tech} = course
+// console.log(tech);
+
+// console.log(course.teache)
+
+
+// ******************************************************
+// API
+
+// {
+//     "name": "hitesh",
+//     "courcename": "js in hindi"
+//     "price": "free"
+// }
