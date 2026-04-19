@@ -30,4 +30,32 @@ function login (username = "sam"){
 }
 // console.log(login("nikhil"));
 
-console.log(login("nikhil"));
+// console.log(login("nikhil"));
+
+// rest
+function calculatecartpeice(...num1){
+return num1;
+}
+// console.log(calculatecartpeice(200,150))
+
+// object use in function
+const user = {
+    name: "nikhil",
+    price: 199
+}
+
+function handlobj (obj){
+console.log(`username is: ${obj.name} and price is ${obj.price}`)
+}
+
+// handlobj(user);
+handlobj({
+    name: "nik",
+    price: 74
+})
+ const arr = [100,200,300]
+ function reeturnsecondvalue(getarray) {
+    return getarray[1]
+ }
+//  console.log(reeturnsecondvalue(arr));
+ console.log(reeturnsecondvalue([52,52,52]));
