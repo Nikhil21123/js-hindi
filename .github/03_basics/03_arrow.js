@@ -44,3 +44,12 @@ console.log(this)
 // const c = addtwo(1,2)
 // console.log(c);
 
+// Immediately Invoked Function Expression (IIFE)
+(function chaii (){
+    console.log(`DB CONNECTED`)
+})();
+
+(  (name)  =>{
+console.log(`hi $(name)`)
+} )("nikhil")
+
