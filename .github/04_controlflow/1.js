@@ -40,5 +40,20 @@ const user = true
 const debit = true 
 const userislogein = false
 if(user && debit || userislogein){
-    console.log("logged in and buy")
+    // console.log("logged in and buy")
 }
+
+// Nullish Coalescing Operator (??)
+// ?? ka use default value dene ke liye hota hai — but only jab value null ya undefined ho.
+let val1
+// val1 = 5 ?? 4
+// val1 = null ?? 5
+// val1 = undefined ?? null
+// console.log(val1);
+
+
+// Terniary Operator
+// condition ?  true : false
+const iceteaprice = 100;
+iceteaprice<=80 ? console.log("less than 80"):console.log("more than 80");
+
