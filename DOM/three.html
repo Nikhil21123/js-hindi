@@ -1,0 +1,26 @@
+<!-- DOCUMENT OBJECT MODEL -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf8"> 
+    <title>
+        DOM LEARNING THREE
+    </title>
+</head>
+<body style="background-color: black; color: azure;">
+
+</body>
+<script>
+    const div = document.createElement('div');
+    console.log(div);
+    div.className = "main"
+    div.id = Math.round(Math.random() * 10 + 1)
+    div.setAttribute("title", "Generated Div");
+    div.style.backgroundColor = "green";
+    div.style.padding = "5px";
+    // div.innerHTML="NIKHIL SIDDHAPURA";
+    const add = document.createTextNode("NIKHIL SIDDHAPURA")
+    div.appendChild(add)
+    document.body.appendChild(div)
+</script>
+</html>
